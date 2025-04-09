@@ -18,19 +18,19 @@ public static void main(String[] args) {
 	// && &
 	// 거짓 && 참
 	
-System.out.println(false &&3 / 0 == 1);
+//System.out.println(false &&3 / 0 == 1);
  // [문제 1] 사탕 나눠주기
 //한 사람이 사탕 72개를 가지고 있다. 이 사탕을 6명에게 똑같이 나눠주려고 한다.
 //각 사람이 받는 사탕 수를 계산하여 출력하시오.
 
-int e = 72 / 6;
-System.out.println(" 72 / 6 ="+ e);
-//[문제 2] 나머지 계산
+//int e = 72 / 6;
+//System.out.println(" 72 / 6 ="+ e);
+////[문제 2] 나머지 계산
 //컵케이크 23개를 4명이 나눠 가질 때, 남는 컵케이크의 개수를 출력하는 코드를 작성하시오.
 
-int a = 23;
-int b = 4; 
-System.out.println(23 % 4 );
+//int a = 23;
+//int b = 4; 
+//System.out.println(23 % 4 );
 
 //[문제 3] 입장 조건 확인
 //놀이기구를 타려면 키가 150cm 이상이어야 한다.
@@ -51,10 +51,10 @@ System.out.println(level);
 //hasID = true, hasTicket = false인 상태에서
 //두 조건이 모두 만족되어야 입장할 수 있도록
 //canEnter의 값을 boolean으로 출력하시오.
-boolean has ID = true;
-boolean hasTicket = false;
-boolean canEnter= hasID && hasTicket;
-System.out.println(canEnter);
+//boolean has ID = true;
+//boolean hasTicket = false;
+//boolean canEnter= hasID && hasTicket;
+//System.out.println(canEnter);
 //[중간 - 3문제]
 //[문제 7] 평균 점수 구하기
 //세 과목의 점수가 각각 80, 90, 70일 때,
@@ -68,9 +68,9 @@ System.out.println(canEnter);
 
 //회원가입이 완료되어 있어야 함
 
-int age = 21;
-boolean isRegistered = true;
-System.out.println(age >= 20 && isRegistered);
+//int age = 21;
+//boolean isRegistered = true;
+//System.out.println(age >= 20 && isRegistered);
 //[문제 9] 계산 순서 주의
 //다음 조건에 따라 점수를 계산하시오.
 
@@ -96,10 +96,11 @@ System.out.println(age >= 20 && isRegistered);
 
 //다음 변수를 사용하여 입장 가능 여부(canEnter)를 판단하는 코드를 작성하시오.
 
- age = 20;
- hasTicket = true;
-boolean isVIP = false;
-canEnter = age >= 18&& hasTicket && isVIP;
-
+// age = 20;
+// hasTicket = true;
+//boolean isVIP = false;
+//canEnter = age >= 18&& hasTicket && isVIP;
+//
+//}
 }
 }
