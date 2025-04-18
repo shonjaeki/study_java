@@ -1,3 +1,4 @@
+
 package student;
 
 // Data class
@@ -35,4 +36,11 @@ public class Student {
 	}
 	
 	// 평균 계산 double type
+	double avg() {
+		return total() / 3d;
+	}
+	
+	public String toString() {
+		return String.format("%5d %5s %5d %5d %5d %6.2f %5d", no, name, kor, eng, mat, avg(), total());
+	}
 }

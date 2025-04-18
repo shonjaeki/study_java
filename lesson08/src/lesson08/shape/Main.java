@@ -10,10 +10,11 @@ public class Main {
 //	System.out.println(rect.area()); //
 //	System.out.println(rect.circum()); //
 	
+	
 	Shape[] shapes = {circle, rect};
 	
 	for(int i = 0 ; i < shapes.length ; i++) {
-		//System.out.println("========" + shapes[i], getClass().getSimpleName() + "=========");
+		System.out.println("========" + shapes[i].getClass().getSimpleName() + "=========");
 		System.out.println(shapes[i].area());
 		System.out.println(shapes[i].circum());
 	}
