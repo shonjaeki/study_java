@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	System.out.println("c :" + c);
 	boolean d = c == false;
 	System.out.println("d :" +d);
-	// 가힣
+	// 가
 	
 	System.out.println('힣' - '가' + 1);
 	
