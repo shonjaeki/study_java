@@ -10,7 +10,7 @@ public class MyStack {
 		arr[size++] = i;
 	}
 	int pop() {
-		if(size ==0) throw new EmptyStackException();
+		if(size == 0) throw new EmptyStackException();
 		return arr[--size];
 	}
 	int size() {
